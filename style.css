@@ -1,0 +1,123 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container */
+div {
+    background: white;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Fieldset & Legend */
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Labels & Inputs */
+label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin: 8px 0 3px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #0073e6;
+}
+
+/* Gender & Subjects (Checkboxes and Radio buttons) */
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Textarea */
+textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+/* Buttons */
+input[type="submit"], input[type="reset"], button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #0073e6;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+button {
+    background-color: #e60000;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #005bb5;
+}
+
+input[type="reset"]:hover {
+    background-color: #e6b800;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
